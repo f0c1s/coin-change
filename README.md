@@ -1,9 +1,29 @@
 # @f0c1s/coin-change
 
+## Install
+
+```shell
+npm i @f0c1s/coin-change@v2
+```
+
 ## Library
 
 ```javascript
-import {makeChange} from "@f0c1s/coin-change"
+const {makeChange} = require("@f0c1s/coin-change");
+
+console.log(makeChange([1, 2, 10, 11, 51, 101, 99, 79, 49], [50, 25, 10, 5, 1]));
+[
+    { target: 1, change: '1*1' },
+    { target: 2, change: '1*2' },
+    { target: 10, change: '10*1' },
+    { target: 11, change: '10*1 + 1*1' },
+    { target: 51, change: '50*1 + 1*1' },
+    { target: 101, change: '50*2 + 1*1' },
+    { target: 99, change: '50*1 + 25*1 + 10*2 + 1*4' },
+    { target: 79, change: '50*1 + 25*1 + 1*4' },
+    { target: 49, change: '25*1 + 10*2 + 1*4' }
+]
+
 ```
 
 ## Run locally

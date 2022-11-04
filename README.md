@@ -3,14 +3,14 @@
 ## Library
 
 ```javascript
-import makeChange from "@f0c1s/coin-change/lib"
+import {makeChange} from "@f0c1s/coin-change"
 ```
 
 ## Run locally
 
 ```shell
 
-node coin-change.sh.mjs 1 2 4 5 6 9 10 11 24 25 26 49 50 51 74 75 76 99 100 101
+node coin-change.sh.js 1 2 4 5 6 9 10 11 24 25 26 49 50 51 74 75 76 99 100 101
 [
   { target: 1, change: '1*1' },
   { target: 2, change: '1*2' },

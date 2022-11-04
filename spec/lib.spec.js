@@ -1,4 +1,4 @@
-import makeChange from "../lib.mjs";
+const {makeChange} = require("../index.js");
 
 const denominations = [50, 25, 10, 5, 1];
 

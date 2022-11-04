@@ -24,4 +24,4 @@ const makeChange = (targets, denominations) => targets
         .join(" + "))
     .map((str, i) => ({target: targets[i], change: str}));
 
-export default makeChange;
+module.exports = makeChange;

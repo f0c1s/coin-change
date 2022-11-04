@@ -1,4 +1,4 @@
-import makeChange from "./index"
+const {makeChange} = require("./index.js");
 
 /**
  * Values of coins that are available to us for

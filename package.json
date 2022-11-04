@@ -1,0 +1,16 @@
+{
+  "name": "@f0c1s/coin-change",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^4.3.0",
+    "jasmine": "^4.5.0"
+  }
+}
